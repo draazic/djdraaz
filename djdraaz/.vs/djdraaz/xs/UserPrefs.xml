@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{EEE34CA0-71D2-4FC3-97A7-70262415C208}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="djdraaz/Models/Client.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="djdraaz/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="djdraaz/appsettings.json" Line="15" Column="1" />
-      <File FileName="djdraaz/Models/ApplicationDbContext.cs" Line="1" Column="1" />
-      <File FileName="djdraaz/Models/Client.cs" Line="10" Column="1" />
+      <File FileName="djdraaz/Models/ApplicationDbContext.cs" />
+      <File FileName="djdraaz/Views/_ViewStart.cshtml" />
+      <File FileName="djdraaz/Views/Shared/_Layout.cshtml" Line="78" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +12,10 @@
           <Node name="djdraaz" expanded="True">
             <Node name="djdraaz" expanded="True">
               <Node name="Models" expanded="True">
-                <Node name="Client.cs" selected="True" />
+                <Node name="ApplicationDbContext.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
