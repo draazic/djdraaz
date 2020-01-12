@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/deejaydraaz/Documents/djdraaz/djdraaz/djdraaz/djdraaz.csproj": {}
+    "/Users/draaz/Documents/djdraaz/djdraaz/djdraaz/djdraaz.csproj": {}
   },
   "projects": {
-    "/Users/deejaydraaz/Documents/djdraaz/djdraaz/djdraaz/djdraaz.csproj": {
+    "/Users/draaz/Documents/djdraaz/djdraaz/djdraaz/djdraaz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/deejaydraaz/Documents/djdraaz/djdraaz/djdraaz/djdraaz.csproj",
+        "projectUniqueName": "/Users/draaz/Documents/djdraaz/djdraaz/djdraaz/djdraaz.csproj",
         "projectName": "djdraaz",
-        "projectPath": "/Users/deejaydraaz/Documents/djdraaz/djdraaz/djdraaz/djdraaz.csproj",
-        "packagesPath": "/Users/deejaydraaz/.nuget/packages/",
-        "outputPath": "/Users/deejaydraaz/Documents/djdraaz/djdraaz/djdraaz/obj/",
+        "projectPath": "/Users/draaz/Documents/djdraaz/djdraaz/djdraaz/djdraaz.csproj",
+        "packagesPath": "/Users/draaz/.nuget/packages/",
+        "outputPath": "/Users/draaz/Documents/djdraaz/djdraaz/djdraaz/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/deejaydraaz/.config/NuGet/NuGet.Config"
+          "/Users/draaz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -39,6 +39,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -50,18 +54,32 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.18, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     }
