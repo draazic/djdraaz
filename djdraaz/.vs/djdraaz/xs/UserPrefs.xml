@@ -1,4 +1,37 @@
 ﻿<Properties StartupConfiguration="{EEE34CA0-71D2-4FC3-97A7-70262415C208}|Default">
-  <MonoDevelop.Ide.ItemProperties.djdraaz FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="djdraaz/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="djdraaz/appsettings.json" Line="6" Column="5" />
+      <File FileName="djdraaz/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="djdraaz/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="djdraaz/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="djdraaz/Controllers/HomeController.cs" Line="29" Column="2" />
+      <File FileName="djdraaz/Models/ApplicationDbContext.cs" Line="17" Column="1" />
+      <File FileName="djdraaz/Models/Client.cs" Line="13" Column="1" />
+      <File FileName="djdraaz/Startup.cs" Line="36" Column="143" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="djdraaz" expanded="True" selected="True">
+            <Node name="djdraaz" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.djdraaz PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
